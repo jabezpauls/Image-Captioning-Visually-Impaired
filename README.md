@@ -6,6 +6,7 @@ Follow these steps to run the image captioning application:
 
 1.Install Dependencies: Before running the code, make sure you have the required libraries installed. You can install them using the following command:
 
+
 "pip install streamlit opencv-python-headless transformers torch pillow"
 
 2.Clone or Download the Code: Clone this repository or download the code as a ZIP file and extract it to a local directory.
