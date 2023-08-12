@@ -5,15 +5,18 @@ Instructions
 Follow these steps to run the image captioning application:
 
 1.Install Dependencies: Before running the code, make sure you have the required libraries installed. You can install them using the following command:
-pip install streamlit opencv-python-headless transformers torch pillow
+
+"pip install streamlit opencv-python-headless transformers torch pillow"
+
 2.Clone or Download the Code: Clone this repository or download the code as a ZIP file and extract it to a local directory.
 
 3.Navigate to the Directory: Open a terminal and navigate to the directory where you have the code files.
 
 4.Run the Application: In the terminal, run the following command:
-streamlit run your_filename.py
 
-Replace your_filename.py with the actual name of the file containing the provided code.
+"streamlit run app.py"
+
+app.py with the actual name of the file containing the provided code
 
 5.Camera Access: The application will attempt to access your camera. A window displaying the camera feed will appear. If the camera is not accessible, an error message will be displayed.
 
